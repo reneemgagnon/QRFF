@@ -18,8 +18,12 @@
     <img src="https://img.shields.io/badge/Python-3.9+-3776ab?style=flat-square&logo=python&logoColor=white" alt="Python">
   </a>
   <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
-  </a>
+  <img src="https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-blue?style=flat-square" alt="License: PolyForm Noncommercial 1.0.0">
+    </a>
+    <a href="COMMERCIAL_LICENSE.md">
+    <img src="https://img.shields.io/badge/Commercial-License%20required-red?style=flat-square" alt="Commercial license required">
+    </a>
+
   <a href="#">
     <img src="https://img.shields.io/badge/Build-Passing-brightgreen?style=flat-square&logo=github-actions" alt="Build">
   </a>
