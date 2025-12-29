@@ -228,7 +228,7 @@ pip install quaternion-ruffle-field
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/quaternion-ruffle-field.git
+git clone https://github.com/reneemgagnon/quaternion-ruffle-field.git
 cd quaternion-ruffle-field
 pip install -e .
 ```
