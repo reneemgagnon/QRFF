@@ -597,11 +597,11 @@ If you use Quaternion Ruffle Field in your research, please cite:
 
 ## 🤝 Contributing
 
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions! info@maplebrainhealth.com
 
 ```bash
 # Development setup
-git clone https://github.com/yourusername/quaternion-ruffle-field.git
+git clone https://github.com/reneemgagnon/QRFF/
 cd quaternion-ruffle-field
 pip install -e ".[dev]"
 pytest tests/ -v
