@@ -611,7 +611,15 @@ pytest tests/ -v
 
 ## 📜 License
 
-MIT License - see [LICENSE](LICENSE) for details.
+## License
+
+The QRFF reference implementation is licensed under the PolyForm Noncommercial 1.0.0 license. See `LICENSE`.
+
+Commercial use requires a separate license. See `COMMERCIAL_LICENSE.md`.
+
+## Attribution
+
+If you use QRFF in academic work, please cite this repository (see `CITATION.cff`) and include the project name: "Quaternion Ruffle Field (QRFF)".
 
 ---
 

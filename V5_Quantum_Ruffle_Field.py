@@ -35,7 +35,17 @@ BUGFIXES INCLUDED:
 
 Author: Renee M Gagnon
 Date: April 2025 - Dec 2025 Udpates
-License: MIT
+# Licensed for noncommercial use under PolyForm Noncommercial 1.0.0. See LICENSE.
+
+License: ## License
+
+The QRFF reference implementation is licensed under the PolyForm Noncommercial 1.0.0 license. See `LICENSE`.
+
+Commercial use requires a separate license. See `COMMERCIAL_LICENSE.md`.
+
+## Attribution
+
+If you use QRFF in academic work, please cite this repository (see `CITATION.cff`) and include the project name: "Quaternion Ruffle Field (QRFF)".
 """
 
 import torch
