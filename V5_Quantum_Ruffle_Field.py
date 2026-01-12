@@ -263,23 +263,11 @@ def quaternion_random_perturbation(
         return quaternion_normalize(rand)
 
 
-def quaternion_geodesic_distance(q1: torch.Tensor, q2: torch.Tensor) -> torch.Tensor:
-    """
-    Compute geodesic distance on quaternion manifold S³.
-    
-    The geodesic distance is the angle of rotation between orientations.
-    d(q1, q2) = arccos(|q1 · q2|)
-    
-    Args:
-        q1: First quaternion batch (..., 4)
-        q2: Second quaternion batch (..., 4)
-        
-    Returns:
-        Geodesic distances
-    """
+def quaternion_geodesic_distance(q1, q2):
     dot = quaternion_inner_product(q1, q2)
-    dot_clamped = torch.clamp(torch.abs(dot), 0.0, 1.0 - 1e-7)
-    return torch.acos(dot_clamped)
+    dot = torch.clamp(torch.abs(dot), 0.0, 1.0 - 1e-7)
+    return 2.0 * torch.acos(dot)
+
 
 
 def quaternion_to_rotation_matrix(q: torch.Tensor) -> torch.Tensor:
